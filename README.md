@@ -27,7 +27,7 @@ Calculations were performed on the following temperature grid:
 temp = [40.00000  ,51.66200  ,66.72400  ,86.17700  ,111.3020   ,143.7530   ,185.6640   ,239.7940   ,309.7050   ,400.0000]
    
 ...and the following para-hydrogen fraction grid:
-fpmagnus=[0.25,0.30,0.35,0.41,0.47,0.54,0.62,0.70,0.80,0.90,1.0]
+fp = [0.25,0.30,0.35,0.41,0.47,0.54,0.62,0.70,0.80,0.90,1.0]
 
 These are then interpolated onto the temperature, para-hydrogen and wavenumber grid required by our radiative transfer model.  
 
@@ -54,6 +54,7 @@ The final files have the same format as in step 1, and span 0.0-594.0 cm-1 in NW
 The three types of transitions have the same temperature and para-hydrogen grids, but different wavenumber grids to make the quantum mechanical calculations more efficient.  For the paper, these were combined into uniformly-sampled wavenumber grids with different step sizes depending on the instrument spectral resolution.  The non-interpolated absorption coefficients are provided here so that they can be adapted as appropriate to new instrument characteristics.
 
 Please address queries to leigh.fletcher@le.ac.uk.
+
 L.N. Fletcher (2017)
 
 
