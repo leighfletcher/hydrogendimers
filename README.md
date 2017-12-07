@@ -2,7 +2,8 @@
 Repository for hydrogen collision-induced absorption spectra.
 
 This github repository contains calculated hydrogen dimer absorption coefficients based on the paper:
-Fletcher, Gustaffson and Orton (2017), Hydrogen dimers in giant-planet infrared spectra, submitted to ApJ.
+Fletcher, Gustaffson and Orton (2017), Hydrogen dimers in giant-planet infrared spectra, accepted for publication 
+in ApJ Supplement.
 
 **Abstract:
 
